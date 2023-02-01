@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curriculostyle.css">
+    <title>Curriculo!</title>
+</head>
+  <body>
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+          <a href="../Apresentação/index.html">Apresentação</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img src="/image/fotopessoal2.jpg" alt="Imagem de Perfil">
+        <span>
+            <a href="https://www.linkedin.com/in/erick-cassoli"><img class="link" src="/image/Linkedin.png" style="width: 50px; height: 50px;"></a>
+            <a href="https://github.com/ErickCassoli"><img class="git" src="/image/github.png" style="width: 50px; height: 50px;"></a>
+            <a href="https://www.instagram.com/eriquee_k4s/"><img class="insta" src="/image/instagram.png" style="width: 50px; height: 50px;"></a>
+        </span>
+        <h1>Erick Moreira Cassoli de Souza</h1>
+        <button id="expand-button">Ver Perfil</button>
+      </div>
+      <div class="curriculum">
+        <h2>Currículo</h2>
+        <div class="curriculospan">
+          <span>
+            <p>
+              <b>Formação Acadêmica:</b><br>
+              Ensino Médio na instituição SESI    [Termino:Dez/2022]<br>
+              Tecnico em Mecatronica na instituição SENAI   [Termino:Dez/2022]<br>
+              Tecnologo em Analise e Desenvolvimento de Sistemas    [Termino Previsto:Dez/2024]
+              <br><br>
+              <b>Experiência Profissional:</b><br>
+              Estagio na Empresa 2RPNet<br><br>
+              <b>Copetencias transversais e cursos:</b><br>
+              HTML e CSS Basicos<br>
+              Pacote Office Basicos<br>
+              Desvendando indústria 4.0<br>
+              Preparação para o mundo de trabalho<br>
+              Excel Básico<br>
+              Segurança do trabalho<br>
+              Economia Circular<br>
+              Educação financeira<br>
+              Desvendando Blockchain<br>
+              Desvendando 5G<br><br>
+            </p>
+          </span>
+          <span>
+            <p>
+              <b>Dados:</b><br>
+              Nome: Erick Moreira Cassoli de Souza<br>
+              Data de Nascimento: 29/05/2004<br>
+              Endereço: Sorocaba-SP<br><br>
+              <b>Contato:</b><br>
+              Email: Erick.mcassoli@gmail.com<br>
+              Tel./Cel.:(11)94329-4097<br>
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script>
+        const expandButton = document.querySelector("#expand-button");
+        const curriculum = document.querySelector(".curriculum");
+  
+        expandButton.addEventListener("click", function() {
+          curriculum.style.display = "block";
+        });
+      </script>
+  </body>
+</html>
